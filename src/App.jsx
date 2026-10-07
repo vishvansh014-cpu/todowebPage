@@ -50,7 +50,6 @@ function App() {
         }
       ])
     }
-
     setTodo("")
   }
 
@@ -114,7 +113,7 @@ function App() {
             />
             <button
               onClick={handleAdd}
-              className="bg-orange-500 px-4 py-2 rounded"
+              className="bg-blue-500 px-4 py-2 rounded-3xl"
             >
               {editId ? "Update" : "Create"}
             </button>
